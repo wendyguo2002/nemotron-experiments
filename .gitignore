@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual environments
+venv/
+venv-hf/
+env/
+
+# HuggingFace model cache
+.offload/.offload*
+cache/
+huggingface/
+model_cache/
+tokenizer_cache/
+
+# Logs
+*.log
+
+# macOS
+.DS_Store
